@@ -1,0 +1,24 @@
+{
+  "_fv": 69,
+  "_type": "projectile",
+  "definition": {
+    "projectileItem": {
+      "value": "CUSTOM:KindnessSoul"
+    },
+    "showParticles": false,
+    "actionSound": {
+      "value": "entity.enderpearl.throw"
+    },
+    "igniteFire": false,
+    "power": 1.0,
+    "damage": 5.0,
+    "knockback": 5,
+    "entityModel": "Default",
+    "customModelTexture": "perseverance_soul.png",
+    "modelWidth": 0.5,
+    "modelHeight": 0.5,
+    "onHitsBlock": {
+      "name": "PerseveranceSoulP"
+    }
+  }
+}

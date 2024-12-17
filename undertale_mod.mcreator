@@ -1,0 +1,369 @@
+{
+  "mod_elements": [
+    {
+      "name": "DeterminationSoul",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "determination_soul",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/undertalemod/item/DeterminationSoulItem.java",
+          "src/main/resources/assets/undertale_mod/models/item/determination_soul.json"
+        ]
+      },
+      "path": "~/Soul"
+    },
+    {
+      "name": "PatienceSoul",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "patience_soul",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/undertale_mod/models/item/patience_soul.json",
+          "src/main/java/net/mcreator/undertalemod/item/PatienceSoulItem.java"
+        ]
+      },
+      "path": "~/Soul"
+    },
+    {
+      "name": "BraverySoul",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bravery_soul",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/undertalemod/item/BraverySoulItem.java",
+          "src/main/resources/assets/undertale_mod/models/item/bravery_soul.json"
+        ]
+      },
+      "path": "~/Soul"
+    },
+    {
+      "name": "IntegritySoul",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "integrity_soul",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/undertalemod/item/IntegritySoulItem.java",
+          "src/main/resources/assets/undertale_mod/models/item/integrity_soul.json"
+        ]
+      },
+      "path": "~/Soul"
+    },
+    {
+      "name": "PerseveranceSoul",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "perseverance_soul",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/undertalemod/item/PerseveranceSoulItem.java",
+          "src/main/resources/assets/undertale_mod/models/item/perseverance_soul.json"
+        ]
+      },
+      "path": "~/Soul"
+    },
+    {
+      "name": "KindnessSoul",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kindness_soul",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/undertalemod/item/KindnessSoulItem.java",
+          "src/main/resources/assets/undertale_mod/models/item/kindness_soul.json"
+        ]
+      },
+      "path": "~/Soul"
+    },
+    {
+      "name": "JusticeSoul",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "justice_soul",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/undertale_mod/models/item/justice_soul.json",
+          "src/main/java/net/mcreator/undertalemod/item/JusticeSoulItem.java"
+        ]
+      },
+      "path": "~/Soul"
+    },
+    {
+      "name": "DeterminationSoulP",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "determination_soul_p",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/undertalemod/procedures/DeterminationSoulPProcedure.java"
+        ],
+        "dependencies": []
+      },
+      "path": "~/Procedure/ProcedureSoul"
+    },
+    {
+      "name": "PatienceSoulP",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "patience_soul_p",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/undertalemod/procedures/PatienceSoulPProcedure.java"
+        ],
+        "dependencies": []
+      },
+      "path": "~/Procedure/ProcedureSoul"
+    },
+    {
+      "name": "BraverySoulP",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bravery_soul_p",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/undertalemod/procedures/BraverySoulPProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedure/ProcedureSoul"
+    },
+    {
+      "name": "IntegritySoulP",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "integrity_soul_p",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/undertalemod/procedures/IntegritySoulPProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedure/ProcedureSoul"
+    },
+    {
+      "name": "PerseveranceSoulP",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "perseverance_soul_p",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/undertalemod/procedures/PerseveranceSoulPProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          }
+        ]
+      },
+      "path": "~/Procedure/ProcedureSoul"
+    },
+    {
+      "name": "PeseveranceSoulPr",
+      "type": "projectile",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "peseverance_soul_pr",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/undertalemod/entity/PeseveranceSoulPrEntity.java"
+        ]
+      },
+      "path": "~/Proiettili"
+    },
+    {
+      "name": "PeseveranceSoulP2",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "peseverance_soul_p_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/undertalemod/procedures/PeseveranceSoulP2Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/Procedure/ProcedureSoul"
+    },
+    {
+      "name": "JusticeSoulProjectile",
+      "type": "projectile",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "justice_soul_projectile",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/undertalemod/entity/JusticeSoulProjectileEntity.java"
+        ]
+      },
+      "path": "~/Proiettili"
+    },
+    {
+      "name": "KindnessSoulP",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kindness_soul_p",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/undertalemod/procedures/KindnessSoulPProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedure/ProcedureSoul"
+    },
+    {
+      "name": "JusticeSuolProjectile",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "justice_suol_projectile",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/undertalemod/item/JusticeSuolProjectileItem.java",
+          "src/main/resources/assets/undertale_mod/models/item/justice_suol_projectile.json"
+        ]
+      },
+      "path": "~/Proiettili"
+    },
+    {
+      "name": "JusticeSoulP",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "justice_soul_p",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/undertalemod/procedures/JusticeSoulPProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedure/ProcedureSoul"
+    },
+    {
+      "name": "Souls",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "souls",
+      "metadata": {
+        "files": []
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {},
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "item.undertale_mod.bravery_soul": "Bravery Soul",
+      "item.undertale_mod.integrity_soul": "Integrity Soul",
+      "item.undertale_mod.justice_suol_projectile": "Justice Suol Projectile",
+      "item.undertale_mod.determination_soul": "Determination Soul",
+      "item.undertale_mod.kindness_soul": "Kindness Soul",
+      "item.undertale_mod.patience_soul": "Patience Soul",
+      "item_group.undertale_mod.souls": "Souls",
+      "item.undertale_mod.perseverance_soul": "Perseverance Soul",
+      "item.undertale_mod.justice_soul": "Justice Soul"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Soul",
+        "children": []
+      },
+      {
+        "name": "Procedure",
+        "children": [
+          {
+            "name": "ProcedureSoul",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Proiettili",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "undertale_mod",
+    "modName": "Undertale Mod",
+    "version": "1.0.0",
+    "author": "SuperFrancy 0171, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.21.1",
+    "modElementsPackage": "net.mcreator.undertalemod"
+  },
+  "mcreatorVersion": 202400342716
+}
